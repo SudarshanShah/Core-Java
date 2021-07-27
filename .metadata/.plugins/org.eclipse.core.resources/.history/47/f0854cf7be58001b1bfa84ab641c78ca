@@ -1,0 +1,14 @@
+package com.java.test.JUnitDemo;
+
+import org.junit.Assert.*;
+
+public class TestCalculator
+{
+	
+	Calculator c = new Calculator();
+	
+	public void testCalculator() 
+	{
+		assertEquals(5, c.add(2, 3));
+	}
+}
